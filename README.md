@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Social App</title>
+</head>
+<body>
+    <h1>Super Social App</h1>
+    <p>
+        This is a feature-rich social media application built with Expo and React Native. The app offers a seamless platform for users to connect, share, and interact through various engaging features.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>User Authentication:</strong> Secure Sign-Up and Sign-In functionality.</li>
+        <li><strong>Post Management:</strong> Create, edit, and delete posts with support for media uploads.</li>
+        <li><strong>Profile Customization:</strong> Edit and update user profile information.</li>
+        <li><strong>Engagement Tools:</strong> Like and comment on posts, including your own. View all comments and interactions on posts.</li>
+    </ul>
+    <img src="./assets/images/welcome1.jpeg" alt="User welcome" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/signup.jpeg" alt="signup" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/signin.jpeg" alt="signin" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/home.jpeg" alt="Engagement Tools" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/home2.jpeg" alt="home2" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/post_details.jpeg" alt="post details" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/profile.jpeg" alt="profile" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/create_post.jpeg" alt="create post" style="width:100%; max-width:500px; margin:10px 0;">
+    <img src="./assets/images/create_post2.jpeg" alt="create post2" style="width:100%; max-width:500px; margin:10px 0;">
+    
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><strong>Frontend:</strong> React Native (Expo)</li>
+        <li><strong>Backend:</strong> Supabase for authentication and real-time database management</li>
+        <li><strong>Storage:</strong> Supabase Storage for media files</li>
+    </ul>
+    
+    <h2>Objectives</h2>
+    <ul>
+        <li>Deliver a seamless and intuitive user experience.</li>
+        <li>Provide real-time interaction and feedback through efficient backend integration.</li>
+        <li>Implement secure and robust features for managing user data.</li>
+    </ul>
+    
+    <h2>How to Run</h2>
+    <ol>
+        <li>Clone the repository.</li>
+        <li>Install dependencies with <code>npm install</code> or <code>yarn install</code>.</li>
+        <li>Run the app with <code>expo start</code>.</li>
+    </ol>
+    
+    <p>
+        This app demonstrates a clean and scalable approach to building social media platforms with a focus on functionality, design, and performance.
+    </p>
+</body>
+</html>
