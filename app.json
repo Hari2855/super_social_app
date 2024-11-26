@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "supa-social-app",
+    "slug": "supa-social-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/network.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/network.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hari_prasad_singh.supasocialapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/network.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/network.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "308c4e11-45af-4696-9ac3-4cccbc01b830"
+      }
+    }
+  }
+}
