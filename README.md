@@ -35,6 +35,6 @@ This is a feature-rich social media application built with Expo and React Native
 ## How to Run
 1. Clone the repository.
 2. Install dependencies with `npm install` or `yarn install`.
-3. Run the app with `expo start`.
+3. Run the app with `npx expo start`.
 
 This app demonstrates a clean and scalable approach to building social media platforms with a focus on functionality, design, and performance.
