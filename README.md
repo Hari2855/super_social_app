@@ -10,15 +10,17 @@ This is a feature-rich social media application built with Expo and React Native
 
 ### Screenshots
 
-![User Welcome](./assets/images/welcome1.jpeg)
-![Signup](./assets/images/signup.jpeg)
-![Signin](./assets/images/signin.jpeg)
-![Engagement Tools](./assets/images/home.jpeg)
-![Home2](./assets/images/home2.jpeg)
-![Post Details](./assets/images/post_details.jpeg)
-![Profile](./assets/images/profile.jpeg)
-![Create Post](./assets/images/create_post.jpeg)
-![Create Post 2](./assets/images/create_post2.jpeg)
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <img src="./assets/images/welcome1.jpeg" alt="User Welcome" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/signup.jpeg" alt="Signup" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/signin.jpeg" alt="Signin" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/home.jpeg" alt="Engagement Tools" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/home2.jpeg" alt="Home2" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/post_details.jpeg" alt="Post Details" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/profile.jpeg" alt="Profile" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/create_post.jpeg" alt="Create Post" style="width: 200px; margin: 10px;">
+    <img src="./assets/images/create_post2.jpeg" alt="Create Post 2" style="width: 200px; margin: 10px;">
+</div>
 
 ## Technologies Used
 - **Frontend:** React Native (Expo)
